@@ -11,7 +11,7 @@ class FibonacciCalculation:
             self.get_fibonacci_item(item_index - 1) + self.get_fibonacci_item(item_index - 2)
 
 
-class CoreCalculations:
+class CoreCalculation:
     __factorial = FactorialCalculation()
     __fibonacci = FibonacciCalculation()
 

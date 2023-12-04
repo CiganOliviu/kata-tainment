@@ -5,7 +5,7 @@ from calculations import *
 class MathCalculationsTestCases(unittest.TestCase):
     __factorial = FactorialCalculation()
     __fibonacci = FibonacciCalculation()
-    __calculations = CoreCalculations()
+    __calculations = CoreCalculation()
 
     def test_factorial(self):
         self.assertEqual(self.__factorial.get_factorial_item(3), 6)
